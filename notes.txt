@@ -1,0 +1,6 @@
+$ mvn clean install
+
+$ mvn tomcat:redeploy
+
+http://localhost:8080/simple-webapp
+http://localhost:8080/simple-webapp/weather?zip=01222
